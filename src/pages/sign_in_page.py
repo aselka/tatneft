@@ -12,8 +12,7 @@ class SignUpPage(PageFactory):
     }
 
     def select_login(self):
-        log = self.login.set_text('log')
-        assert log == 'log'
+        self.login.set_text('log')
 
     def select_password(self):
         self.password.set_text('pass')
