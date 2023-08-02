@@ -1,0 +1,2 @@
+pytest==7.2
+selenium-page-factory==2.6
