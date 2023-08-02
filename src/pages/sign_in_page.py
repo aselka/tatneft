@@ -6,7 +6,7 @@ class SignUpPage(PageFactory):
         self.driver = driver
 
     locators = {
-        'login': ('NAME', 'user-name'),
+        'login': ('NAME', 'login'),
         'password': ('NAME', 'password'),
         'login_btn': ('CLASS_NAME', 'btn-new__content')
     }
